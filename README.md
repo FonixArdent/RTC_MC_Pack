@@ -33,8 +33,8 @@ A complete Minecraft Bedrock add-on providing a dynamic clock system, a time syn
 
 | Directory / File | Description |
 | :--- | :--- |
-| `manifest.json - Dot MC Pack` | Pack declaration and Script API dependencies |
-| `pack_icon.png | Dot MC Pack` | Pack thumbnail |
+| `manifest.json ~ MC Pack` | Pack declaration and Script API dependencies |
+| `pack_icon.png ~ MC Pack` | Pack thumbnail |
 | `scripts/clock/` | Clock JavaScript logic (commands, UI, configuration) |
 | `scripts/time_sync/` | Time synchronization JavaScript logic |
 | `scripts/__Languages__/` | Translation engine and language dictionaries |
