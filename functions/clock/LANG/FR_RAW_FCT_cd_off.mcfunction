@@ -1,0 +1,1 @@
+tellraw @s {"rawtext":[{"text":"§cVue detaillee : OFF"}]}

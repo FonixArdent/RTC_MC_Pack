@@ -1,0 +1,10 @@
+# Data view (takes priority) - EN + showClock ON
+execute as @a[tag=dataClock,scores={lang=0}] if entity @s[tag=showClock] run titleraw @s actionbar {"rawtext":[{"text":"§e"},{"score":{"name":"@s","objective":"realHours"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realMinutes"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realSeconds"}},{"text":" §7| §6TZ:§e"},{"score":{"name":"@s","objective":"tzOffset"}},{"text":" §7| §6EN §7| §aON §7| 24h"}]}
+# Data view - EN + showClock OFF
+execute as @a[tag=dataClock,scores={lang=0}] unless entity @s[tag=showClock] run titleraw @s actionbar {"rawtext":[{"text":"§e"},{"score":{"name":"@s","objective":"realHours"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realMinutes"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realSeconds"}},{"text":" §7| §6TZ:§e"},{"score":{"name":"@s","objective":"tzOffset"}},{"text":" §7| §6EN §7| §cOFF §7| 24h"}]}
+# Data view - FR + showClock ON
+execute as @a[tag=dataClock,scores={lang=1}] if entity @s[tag=showClock] run titleraw @s actionbar {"rawtext":[{"text":"§e"},{"score":{"name":"@s","objective":"realHours"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realMinutes"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realSeconds"}},{"text":" §7| §6TZ:§e"},{"score":{"name":"@s","objective":"tzOffset"}},{"text":" §7| §6FR §7| §aON §7| 24h"}]}
+# Data view - FR + showClock OFF
+execute as @a[tag=dataClock,scores={lang=1}] unless entity @s[tag=showClock] run titleraw @s actionbar {"rawtext":[{"text":"§e"},{"score":{"name":"@s","objective":"realHours"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realMinutes"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realSeconds"}},{"text":" §7| §6TZ:§e"},{"score":{"name":"@s","objective":"tzOffset"}},{"text":" §7| §6FR §7| §cOFF §7| 24h"}]}
+# Normal clock - 24h
+execute as @a[tag=showClock,tag=!dataClock] at @s run titleraw @s actionbar {"rawtext":[{"text":"§l§e"},{"score":{"name":"@s","objective":"realHours"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realMinutes"}},{"text":"§6:§e"},{"score":{"name":"@s","objective":"realSeconds"}}]}

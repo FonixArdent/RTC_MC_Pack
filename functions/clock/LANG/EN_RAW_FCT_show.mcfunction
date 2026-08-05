@@ -1,0 +1,1 @@
+tellraw @s {"rawtext":[{"text":"§aClock is now shown"}]}
