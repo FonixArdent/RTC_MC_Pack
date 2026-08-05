@@ -37,10 +37,11 @@
     <strong>How It Works :</strong>
     <ul style="list-style-type: square;">
       <li style="color: rgb(45, 194, 107);">
-        <strong>When the world starts, your server or world — when you join — an interface will appear to set up your unique clock.</strong>
-        <ul style="list-style-type: square;">
-          <li style="color: rgb(45, 194, 107);">
-            <strong>You may also need to know that this pack adds custom commands :</strong>
+        <strong>When the world starts, (your server or world) when you join, an interface will appear to set up your unique clock.</strong>
+      </li>
+<ul>
+  <li style="list-style-type: square; color: rgb(45, 194, 107);">
+      <strong>You may also need to know that this pack adds custom commands :</strong>
             <ul style="list-style-type: square;">
               <li style="color: rgb(224, 62, 45);">
                 <code><strong>[ /data ]</strong></code> or <code><strong>/clock:data</strong></code> : See all the active tags about your clock 
@@ -58,14 +59,8 @@
                 <code><strong>[ /time_sync ]</strong></code> or <code><strong>/clock:time_sync</strong></code> : Sync the world time by using the average time of everyone 
                 <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
               </li>
-            </ul>
-          </li>
-        </ul>
       </li>
-    </ul>
-  </li>
-</ul>
-
+  </ul>
 <hr>
 
 <ul>
