@@ -1,75 +1,51 @@
-<p style="text-align: center;">
-  <img style="display: block; margin-left: auto; margin-right: auto;" 
-       src="https://media.forgecdn.net/attachments/description/null/description_bb2b7c00-c587-4ca5-ac33-f837dfe1c630.png" 
-       alt="" width="128" height="128">
-</p>
+# Clock & Time Sync Add-On (Minecraft Bedrock)
 
-<p style="text-align: center;">
-  <span style="color: rgb(132, 63, 161);"><strong>Real Time Clock [RTC]</strong></span>
-</p>
+## 📌 Overview
+A complete Minecraft Bedrock add-on providing a dynamic clock system, a time synchronization module (*Time Sync*), an interactive User Interface (UI), and full bilingual support (French / English)[cite: 1].
 
-<p style="text-align: center;">
-  <span style="color: rgb(236, 240, 241);"><strong>(Behavior Pack)</strong></span>
-</p>
+---
 
-<hr>
+## 🛠️ Features & Additions
 
-<blockquote>
-  <ul>
-    <li style="text-align: left; color: rgb(35, 111, 161);">
-      <strong>Your IRL Clock on Minecraft :</strong>
-      <ul style="list-style-type: square;">
-        <li style="text-align: left; color: rgb(45, 194, 107);">
-          This Pack uses Minecraft Scoreboard Commands to display your clock. It's unique for every player.
-        </li>
-        <li style="text-align: left; color: rgb(45, 194, 107);">
-          This pack can work on a Minecraft Bedrock Server.
-        </li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
+### 1. ⏰ Clock System (`clock`)
+- **Dynamic HUD Display**: Show (`show.mcfunction`) or hide (`hide.mcfunction`) the clock on screen[cite: 1].
+- **Countdown / Cooldown Management**: Support for countdown toggle modes (`cd_on`, `cd_off`)[cite: 1].
+- **Real-Time Update**: Optimized tick execution loop via `tick.json` and `tick.mcfunction`[cite: 1].
+- **Interactive UI**: In-game control panel managed by `scripts/clock/ui.js`[cite: 1].
+- **Data Storage**: Clock data handling via `clockdata.mcfunction` and `shared.js`[cite: 1].
 
-<hr>
+### 2. 🔄 Time Sync (`time_sync`)
+- **Dedicated Module**: Precise synchronization of world time or third-party scripts[cite: 1].
+- **Commands & Setup**: Managed via `commands.js`, `setup.js`, and `shared.js`[cite: 1].
 
-<blockquote>
-    <ul>
-    <li style="color: rgb(53, 152, 219);">
-        <strong>How It Works :</strong>
-        <ul style="list-style-type: square;">
-        <li style="color: rgb(45, 194, 107);">
-            <strong>When the world starts, (your server or world) when you join, an interface will appear to set up your unique clock.</strong>
-    </li>
-    <ul>
-    <li style="list-style-type: square; color: rgb(45, 194, 107);">
-        <strong>You may also need to know that this pack adds custom commands :</strong>
-                <ul style="list-style-type: square;">
-                <li style="color: rgb(224, 62, 45);">
-                    <code><strong>[ /data ]</strong></code> or <code><strong>/clock:data</strong></code> : See all the active tags about your clock 
-                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
-                </li>
-                <li style="color: rgb(224, 62, 45);">
-                    <code><strong>[ /show, /hide ]</strong></code> or <code><strong>/clock:show, /clock:hide</strong></code> : Show or hide the clock 
-                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
-                </li>
-                <li style="color: rgb(224, 62, 45);">
-                    <code><strong>[ /reset ]</strong></code> or <code><strong>/clock:reset</strong></code> : Reset the clock for everyone 
-                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
-                </li>
-                <li style="color: rgb(224, 62, 45);">
-                    <code><strong>[ /time_sync ]</strong></code> or <code><strong>/clock:time_sync</strong></code> : Sync the world time by using the average time of everyone 
-                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
-                </li>
-          </li>
-    </ul>
-</blockquote>
+### 3. 🌐 Native Multilingual Support (`__Languages__` / `texts`)
+- **Bilingual Support**: Fully integrated in **French (`fr_FR`)** and **English (`en_US`)**[cite: 1].
+- **Dynamic Language Engine**: Powered by `lang_sys.js`, `clock_lang.js`, and `time_sync_clock.js`[cite: 1].
+- **Conditional Execution**: `.mcfunction` files tailored per language (`FR_RAW_FCT_*` / `EN_RAW_FCT_*`)[cite: 1].
 
-<hr>
+### 4. 💻 Technical Architecture (Script API)
+- **Bedrock Script API (JavaScript)**: Core engine located under `scripts/main.js` combined with `.mcfunction` files[cite: 1].
+- **Modularity**: Clean isolation of scripts (`clock`, `time_sync`, `info.js`)[cite: 1].
 
-<ul>
-  <li>
-    <span style="color: rgb(191, 237, 210);">
-      <strong>For any suggestions or adjustments, please contact me. Please do not change anything in the pack without my authorization.</strong>
-    </span>
- </li>
-</ul>
+---
+
+## 📂 File Structure
+
+| Directory / File | Description |
+| :--- | :--- |
+| `manifest.json` | Pack declaration and Script API dependencies[cite: 1] |
+| `pack_icon.png` | Pack thumbnail[cite: 1] |
+| `scripts/clock/` | Clock JavaScript logic (commands, UI, configuration)[cite: 1] |
+| `scripts/time_sync/` | Time synchronization JavaScript logic[cite: 1] |
+| `scripts/__Languages__/` | Translation engine and language dictionaries[cite: 1] |
+| `functions/clock/` | `.mcfunction` scripts for HUD display and tick management[cite: 1] |
+| `functions/clock/LANG/` | Raw executions specific to each language (FR/EN)[cite: 1] |
+| `texts/` | Minecraft localization files (`en_US.lang`, `fr_FR.lang`)[cite: 1] |
+
+---
+
+## 🚀 Installation
+
+1. Download and import the `.mcpack` file into Minecraft Bedrock[cite: 1].
+2. Enable the **Behavior Pack** in your world settings[cite: 1].
+3. **Required**: Enable **Beta APIs / Beta Features** in your world's experimental settings[cite: 1].
