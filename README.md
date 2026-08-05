@@ -49,5 +49,6 @@ A complete Minecraft Bedrock add-on providing a dynamic clock system, a time syn
 1. Download the `.mcpack` file into Minecraft Berdrock you will find it on curse forge
 2. And Enjoy
 
-## ✴️ Curse Forge Pack : 
-* ** [Curseforge - RTC](<https://www.curseforge.com/minecraft-bedrock/addons/real-time-clock-rtc>) **
+## ✴️ Curse Forge Pack :
+
+* **[Curseforge - RTC](<https://www.curseforge.com/minecraft-bedrock/addons/real-time-clock-rtc>)**
