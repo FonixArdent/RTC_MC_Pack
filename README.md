@@ -46,6 +46,7 @@ A complete Minecraft Bedrock add-on providing a dynamic clock system, a time syn
 
 ## 🚀 Installation
 
-1. Download and import the `.mcpack` file into Minecraft Bedrock.
-2. Enable the **Behavior Pack** in your world settings.
-3. **Required**: Enable **Beta APIs / Beta Features** in your world's experimental settings.
+1. Download the `.mcpack` file into Minecraft Bedrock.
+2. And Enjoy
+
+## Curse Forge Pack : 
