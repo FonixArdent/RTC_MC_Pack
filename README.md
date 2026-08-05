@@ -32,35 +32,38 @@
 
 <hr>
 
-<ul>
-  <li style="color: rgb(53, 152, 219);">
-    <strong>How It Works :</strong>
-    <ul style="list-style-type: square;">
-      <li style="color: rgb(45, 194, 107);">
-        <strong>When the world starts, (your server or world) when you join, an interface will appear to set up your unique clock.</strong>
-      </li>
-<ul>
-  <li style="list-style-type: square; color: rgb(45, 194, 107);">
-      <strong>You may also need to know that this pack adds custom commands :</strong>
-            <ul style="list-style-type: square;">
-              <li style="color: rgb(224, 62, 45);">
-                <code><strong>[ /data ]</strong></code> or <code><strong>/clock:data</strong></code> : See all the active tags about your clock 
-                <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
-              </li>
-              <li style="color: rgb(224, 62, 45);">
-                <code><strong>[ /show, /hide ]</strong></code> or <code><strong>/clock:show, /clock:hide</strong></code> : Show or hide the clock 
-                <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
-              </li>
-              <li style="color: rgb(224, 62, 45);">
-                <code><strong>[ /reset ]</strong></code> or <code><strong>/clock:reset</strong></code> : Reset the clock for everyone 
-                <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
-              </li>
-              <li style="color: rgb(224, 62, 45);">
-                <code><strong>[ /time_sync ]</strong></code> or <code><strong>/clock:time_sync</strong></code> : Sync the world time by using the average time of everyone 
-                <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
-              </li>
-      </li>
-  </ul>
+<blockquote>
+    <ul>
+    <li style="color: rgb(53, 152, 219);">
+        <strong>How It Works :</strong>
+        <ul style="list-style-type: square;">
+        <li style="color: rgb(45, 194, 107);">
+            <strong>When the world starts, (your server or world) when you join, an interface will appear to set up your unique clock.</strong>
+    </li>
+    <ul>
+    <li style="list-style-type: square; color: rgb(45, 194, 107);">
+        <strong>You may also need to know that this pack adds custom commands :</strong>
+                <ul style="list-style-type: square;">
+                <li style="color: rgb(224, 62, 45);">
+                    <code><strong>[ /data ]</strong></code> or <code><strong>/clock:data</strong></code> : See all the active tags about your clock 
+                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
+                </li>
+                <li style="color: rgb(224, 62, 45);">
+                    <code><strong>[ /show, /hide ]</strong></code> or <code><strong>/clock:show, /clock:hide</strong></code> : Show or hide the clock 
+                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by everyone</span>
+                </li>
+                <li style="color: rgb(224, 62, 45);">
+                    <code><strong>[ /reset ]</strong></code> or <code><strong>/clock:reset</strong></code> : Reset the clock for everyone 
+                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
+                </li>
+                <li style="color: rgb(224, 62, 45);">
+                    <code><strong>[ /time_sync ]</strong></code> or <code><strong>/clock:time_sync</strong></code> : Sync the world time by using the average time of everyone 
+                    <span style="color: rgb(236, 240, 241);">--&gt;</span> <span style="color: rgb(132, 63, 161);">can be used by operators only</span>
+                </li>
+          </li>
+    </ul>
+</blockquote>
+
 <hr>
 
 <ul>
@@ -68,5 +71,5 @@
     <span style="color: rgb(191, 237, 210);">
       <strong>For any suggestions or adjustments, please contact me. Please do not change anything in the pack without my authorization.</strong>
     </span>
-  </li>
+ </li>
 </ul>
